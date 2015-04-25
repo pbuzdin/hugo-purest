@@ -1,0 +1,313 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+When setting the primary font stack, apply it to the Pure grid units along
+with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
+specific font stacks to ensure the greatest OS/browser compatibility.
+*/
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(61, 146, 201);
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+/* LAYOUT CSS */
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#layout {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    top: auto;
+    margin: 3em auto;
+}
+
+.sidebar {
+    background: rgb(61, 79, 93);
+    color: #fff;
+}
+
+.brand-title,
+.brand-tagline {
+    margin: 0;
+}
+.brand-title {
+    text-transform: uppercase;
+    font-family: "Oxygen", sans-serif;
+}
+.brand-title a{
+    color:#fff;
+}
+.brand-title a:hover{
+    text-decoration: none;
+}
+.brand-tagline {
+    font-weight: 300;
+    color: rgb(176, 202, 219);
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.nav-item a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    color: #fff;
+    margin-top: 1em;
+    /*letter-spacing: 0.05em;
+    text-transform: uppercase;
+     font-size: 85%; */
+    font-weight: bold;
+    font-family: "Oxygen", sans-serif;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    border: 2px solid rgb(61, 146, 201);
+    text-decoration: none;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.content {
+    padding: 2em 1em 0;
+}
+
+.post {
+    padding-bottom: 2em;
+}
+.post-title {
+    font-size: 2em;
+    color: #222;
+    margin: 0.4em 0;
+    font-family: "Oxygen", sans-serif;
+    font-weight: bold;
+}
+.post-title:hover{
+    text-decoration: none;
+}
+.post-avatar {
+    border-radius: 50px;
+    float: right;
+    margin-left: 1em;
+}
+.post-description {
+    color: #333;
+    line-height: 1.35em;
+}
+.post-description p {
+  font-size: 100%;
+  line-height: 1.618;
+}
+.post-meta {
+    color: #999;
+    font-size: 90%;
+    margin: 5px 0;
+}
+
+.post-category {
+    margin: 0 0.1em;
+    padding: 0.3em 1em;
+    color: #fff;
+    background: #999;
+    font-size: 80%;
+}
+.post-category-design {
+    background: #5aba59;
+}
+.post-category-pure {
+    background: #4d85d1;
+}
+.post-category-yui {
+    background: #8156a7;
+}
+.post-category-javascript {
+    background: #df2d4f;
+}
+
+.post-images {
+    margin: 1em 0;
+}
+.post-image-meta {
+    margin-top: -3.5em;
+    margin-left: 1em;
+    color: #fff;
+    text-shadow: 0 1px 1px #333;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em 0;
+    color: #555;
+    font-size: 80%;
+}
+.footer ul li a {
+    display:inline;
+    padding: 0;
+}
+.hugo{
+    color:#333;
+    font-weight: bold;
+}
+.footer .pure-menu a:hover,
+.footer .pure-menu a:focus {
+    background: none;
+}
+.footer li{
+    list-style-type: none;
+}
+
+@media (min-width: 48em) {
+    .content {
+        /*width: 61.2%;*/
+        margin: 0 auto;
+        width: 35em;
+    }
+
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}
+.custom-wrapper {
+background-color: #ffd390;
+-webkit-font-smoothing: antialiased;
+height: 2.1em;
+overflow: hidden;
+-webkit-transition: height 0.5s;
+-moz-transition: height 0.5s;
+-ms-transition: height 0.5s;
+transition: height 0.5s;
+}
+
+.custom-wrapper.open {
+height: 14em;
+}
+
+.custom-menu-3 {
+text-align: right;
+}
+
+.custom-toggle {
+width: 34px;
+height: 34px;
+display: block;
+position: absolute;
+top: 0;
+right: 9px;
+display: none;
+}
+.pure-menu-heading {
+  line-height: 16px;
+  font-size: 19px;
+  padding: 9px 16px;
+}
+.custom-toggle .bar {
+background-color: #777;
+display: block;
+width: 20px;
+height: 2px;
+border-radius: 100px;
+position: absolute;
+top: 19px;
+right: 7px;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+-ms-transition: all 0.5s;
+transition: all 0.5s;
+}
+.custom-toggle.x .bar {
+  top: 16px;
+}
+.custom-toggle .bar:first-child {
+-webkit-transform: translateY(-6px);
+-moz-transform: translateY(-6px);
+-ms-transform: translateY(-6px);
+transform: translateY(-6px);
+}
+
+.custom-toggle.x .bar {
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+.custom-toggle.x .bar:first-child {
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+
+@media (max-width: 47.999em) {
+
+.custom-menu-3 {
+    text-align: left;
+}
+
+.custom-toggle {
+    display: block;
+}
+
+}
+.pure-menu-link:focus {
+  background: transparent;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
