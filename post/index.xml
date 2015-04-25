@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on purehugo</title>
+    <title>Posts on hugo-purest</title>
     <link>http://localhost:1313/hugo-purest/post/</link>
-    <description>Recent content in Posts on purehugo</description>
+    <description>Recent content in Posts on hugo-purest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Tue, 14 Apr 2015 16:32:03 +0300</lastBuildDate>
