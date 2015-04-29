@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Profiling on purax</title>
-    <link>http://localhost:1313/tags/profiling/</link>
+    <link>http://purax.iboong.com/tags/profiling/</link>
     <description>Recent content in Profiling on purax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Fri, 21 Jun 2013 11:27:27 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/profiling/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://purax.iboong.com/tags/profiling/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Nitro: A quick and simple profiler for Go</title>
-      <link>http://localhost:1313/post/nitro/</link>
+      <link>http://purax.iboong.com/post/nitro/</link>
       <pubDate>Fri, 21 Jun 2013 11:27:27 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/nitro/</guid>
+      <guid>http://purax.iboong.com/post/nitro/</guid>
       <description>
 
 &lt;h1 id=&#34;nitro:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;Nitro&lt;/h1&gt;

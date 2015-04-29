@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on purax</title>
-    <link>http://localhost:1313/post/</link>
+    <link>http://purax.iboong.com/post/</link>
     <description>Recent content in Posts on purax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Tue, 14 Apr 2015 16:32:03 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://purax.iboong.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Russian way with the mathematical travelling salesman</title>
-      <link>http://localhost:1313/post/2015/khachian/</link>
+      <link>http://purax.iboong.com/post/khachian/</link>
       <pubDate>Tue, 14 Apr 2015 16:32:03 +0300</pubDate>
       
-      <guid>http://localhost:1313/post/2015/khachian/</guid>
+      <guid>http://purax.iboong.com/post/khachian/</guid>
       <description>&lt;p&gt;A young Soviet mathematician, apparently totally unknown to any of the world&amp;rsquo;s senior practitioners, has found an answer to one of the most baffling problems in computer calculation.&lt;/p&gt;
 
 &lt;p&gt;But his obscurity is such that his discovery went unnoticed for 10 months in the mathematical world, although work on the problem has been going on for years.&lt;/p&gt;
@@ -44,39 +44,11 @@
     </item>
     
     <item>
-      <title>first</title>
-      <link>http://localhost:1313/post/first-hui/</link>
-      <pubDate>Thu, 09 Apr 2015 14:22:21 +0300</pubDate>
-      
-      <guid>http://localhost:1313/post/first-hui/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis enim at turpis pharetra, sed sodales orci dignissim. In fermentum malesuada lacus, ut egestas risus cursus quis. Fusce venenatis malesuada neque, non scelerisque nisl fermentum sed. Nam eu metus sed metus consectetur dapibus. Nam vel condimentum dui. Nam accumsan ipsum ut elit sollicitudin, a porta lorem elementum. Maecenas tempor pulvinar suscipit. Cras quam orci, elementum non imperdiet et, bibendum ac nisl. Donec porttitor odio ut laoreet laoreet. Aliquam laoreet euismod dolor ut congue. Maecenas ornare fermentum sem, et consequat libero pharetra et. Nulla ac est ipsum. Donec ac nulla tellus. Mauris eleifend nunc a vulputate efficitur. Donec diam risus, bibendum non massa et, dictum tincidunt sapien.&lt;/p&gt;
-
-&lt;p&gt;Donec dapibus, mauris tincidunt condimentum tempor, urna est auctor diam, ut convallis nunc dui nec justo. Duis sed libero leo. Nam sed nisi iaculis, rutrum metus sit amet, fringilla nunc. Proin sed nunc vitae velit laoreet fermentum. Etiam egestas massa id quam scelerisque congue. Mauris auctor posuere urna quis rhoncus. Ut sit amet maximus est. Etiam vehicula nisl id nulla eleifend, id ultricies magna imperdiet. Cras eu ornare augue. Praesent ac dignissim lacus, vitae fermentum tellus. Nulla facilisi. Vivamus euismod sem vestibulum fermentum euismod. Curabitur orci odio, malesuada in tincidunt et, ornare at ipsum. Vestibulum posuere ultrices mattis. Vivamus in varius mi, tincidunt egestas neque.&lt;/p&gt;
-
-&lt;p&gt;Quisque egestas sagittis magna. Mauris non congue libero. Sed tristique orci quis eros gravida, eu tincidunt metus pharetra. Quisque non consectetur nisi. Proin vel accumsan velit. In id ante fringilla, semper orci nec, viverra ipsum. Sed non lorem eget lacus pharetra bibendum et nec sem. In hac habitasse platea dictumst. Morbi sed sem nec lorem cursus facilisis. Donec luctus ligula est, sed tempus orci commodo at.&lt;/p&gt;
-
-&lt;p&gt;Fusce eget urna vitae turpis consectetur interdum. Integer mi quam, dapibus vitae vestibulum ut, blandit non tellus. Praesent non fringilla turpis. Pellentesque vitae ex varius, feugiat nisl sit amet, tempor leo. Sed fermentum velit ac suscipit aliquam. Sed sed mi arcu. Nulla ut ornare turpis. Etiam eget neque et dui fringilla maximus vitae eget est.&lt;/p&gt;
-
-&lt;p&gt;Quisque molestie consequat metus. Nulla sit amet iaculis lorem. Curabitur ac sagittis leo, sed consectetur massa. Etiam laoreet id nunc accumsan mollis. Aenean lobortis nisl quam. Nunc dictum dignissim nulla sed bibendum. Maecenas pretium ante vitae pretium vulputate.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis enim at turpis pharetra, sed sodales orci dignissim. In fermentum malesuada lacus, ut egestas risus cursus quis. Fusce venenatis malesuada neque, non scelerisque nisl fermentum sed. Nam eu metus sed metus consectetur dapibus. Nam vel condimentum dui. Nam accumsan ipsum ut elit sollicitudin, a porta lorem elementum. Maecenas tempor pulvinar suscipit. Cras quam orci, elementum non imperdiet et, bibendum ac nisl. Donec porttitor odio ut laoreet laoreet. Aliquam laoreet euismod dolor ut congue. Maecenas ornare fermentum sem, et consequat libero pharetra et. Nulla ac est ipsum. Donec ac nulla tellus. Mauris eleifend nunc a vulputate efficitur. Donec diam risus, bibendum non massa et, dictum tincidunt sapien.&lt;/p&gt;
-
-&lt;p&gt;Donec dapibus, mauris tincidunt condimentum tempor, urna est auctor diam, ut convallis nunc dui nec justo. Duis sed libero leo. Nam sed nisi iaculis, rutrum metus sit amet, fringilla nunc. Proin sed nunc vitae velit laoreet fermentum. Etiam egestas massa id quam scelerisque congue. Mauris auctor posuere urna quis rhoncus. Ut sit amet maximus est. Etiam vehicula nisl id nulla eleifend, id ultricies magna imperdiet. Cras eu ornare augue. Praesent ac dignissim lacus, vitae fermentum tellus. Nulla facilisi. Vivamus euismod sem vestibulum fermentum euismod. Curabitur orci odio, malesuada in tincidunt et, ornare at ipsum. Vestibulum posuere ultrices mattis. Vivamus in varius mi, tincidunt egestas neque.&lt;/p&gt;
-
-&lt;p&gt;Quisque egestas sagittis magna. Mauris non congue libero. Sed tristique orci quis eros gravida, eu tincidunt metus pharetra. Quisque non consectetur nisi. Proin vel accumsan velit. In id ante fringilla, semper orci nec, viverra ipsum. Sed non lorem eget lacus pharetra bibendum et nec sem. In hac habitasse platea dictumst. Morbi sed sem nec lorem cursus facilisis. Donec luctus ligula est, sed tempus orci commodo at.&lt;/p&gt;
-
-&lt;p&gt;Fusce eget urna vitae turpis consectetur interdum. Integer mi quam, dapibus vitae vestibulum ut, blandit non tellus. Praesent non fringilla turpis. Pellentesque vitae ex varius, feugiat nisl sit amet, tempor leo. Sed fermentum velit ac suscipit aliquam. Sed sed mi arcu. Nulla ut ornare turpis. Etiam eget neque et dui fringilla maximus vitae eget est.&lt;/p&gt;
-
-&lt;p&gt;Quisque molestie consequat metus. Nulla sit amet iaculis lorem. Curabitur ac sagittis leo, sed consectetur massa. Etiam laoreet id nunc accumsan mollis. Aenean lobortis nisl quam. Nunc dictum dignissim nulla sed bibendum. Maecenas pretium ante vitae pretium vulputate.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Nitro: A quick and simple profiler for Go</title>
-      <link>http://localhost:1313/post/nitro/</link>
+      <link>http://purax.iboong.com/post/nitro/</link>
       <pubDate>Fri, 21 Jun 2013 11:27:27 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/nitro/</guid>
+      <guid>http://purax.iboong.com/post/nitro/</guid>
       <description>
 
 &lt;h1 id=&#34;nitro:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;Nitro&lt;/h1&gt;

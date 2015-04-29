@@ -2,38 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>X on purax</title>
-    <link>http://localhost:1313/categories/x/</link>
+    <link>http://purax.iboong.com/categories/x/</link>
     <description>Recent content in X on purax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Thu, 09 Apr 2015 14:22:21 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/x/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Apr 2015 16:32:03 +0300</lastBuildDate>
+    <atom:link href="http://purax.iboong.com/categories/x/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>first</title>
-      <link>http://localhost:1313/post/first-hui/</link>
-      <pubDate>Thu, 09 Apr 2015 14:22:21 +0300</pubDate>
+      <title>Russian way with the mathematical travelling salesman</title>
+      <link>http://purax.iboong.com/post/khachian/</link>
+      <pubDate>Tue, 14 Apr 2015 16:32:03 +0300</pubDate>
       
-      <guid>http://localhost:1313/post/first-hui/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis enim at turpis pharetra, sed sodales orci dignissim. In fermentum malesuada lacus, ut egestas risus cursus quis. Fusce venenatis malesuada neque, non scelerisque nisl fermentum sed. Nam eu metus sed metus consectetur dapibus. Nam vel condimentum dui. Nam accumsan ipsum ut elit sollicitudin, a porta lorem elementum. Maecenas tempor pulvinar suscipit. Cras quam orci, elementum non imperdiet et, bibendum ac nisl. Donec porttitor odio ut laoreet laoreet. Aliquam laoreet euismod dolor ut congue. Maecenas ornare fermentum sem, et consequat libero pharetra et. Nulla ac est ipsum. Donec ac nulla tellus. Mauris eleifend nunc a vulputate efficitur. Donec diam risus, bibendum non massa et, dictum tincidunt sapien.&lt;/p&gt;
+      <guid>http://purax.iboong.com/post/khachian/</guid>
+      <description>&lt;p&gt;A young Soviet mathematician, apparently totally unknown to any of the world&amp;rsquo;s senior practitioners, has found an answer to one of the most baffling problems in computer calculation.&lt;/p&gt;
 
-&lt;p&gt;Donec dapibus, mauris tincidunt condimentum tempor, urna est auctor diam, ut convallis nunc dui nec justo. Duis sed libero leo. Nam sed nisi iaculis, rutrum metus sit amet, fringilla nunc. Proin sed nunc vitae velit laoreet fermentum. Etiam egestas massa id quam scelerisque congue. Mauris auctor posuere urna quis rhoncus. Ut sit amet maximus est. Etiam vehicula nisl id nulla eleifend, id ultricies magna imperdiet. Cras eu ornare augue. Praesent ac dignissim lacus, vitae fermentum tellus. Nulla facilisi. Vivamus euismod sem vestibulum fermentum euismod. Curabitur orci odio, malesuada in tincidunt et, ornare at ipsum. Vestibulum posuere ultrices mattis. Vivamus in varius mi, tincidunt egestas neque.&lt;/p&gt;
+&lt;p&gt;But his obscurity is such that his discovery went unnoticed for 10 months in the mathematical world, although work on the problem has been going on for years.&lt;/p&gt;
 
-&lt;p&gt;Quisque egestas sagittis magna. Mauris non congue libero. Sed tristique orci quis eros gravida, eu tincidunt metus pharetra. Quisque non consectetur nisi. Proin vel accumsan velit. In id ante fringilla, semper orci nec, viverra ipsum. Sed non lorem eget lacus pharetra bibendum et nec sem. In hac habitasse platea dictumst. Morbi sed sem nec lorem cursus facilisis. Donec luctus ligula est, sed tempus orci commodo at.&lt;/p&gt;
+&lt;p&gt;The apparent breakthrough was achieved by L. G. Khachian, and was published in a Soviet scientific journal, Doklady, last January. Few people in the West read the journal and it was only after rumours of the discovery circulated at a conference in Germany that anyone in the mathematical world at large had even a hint that someone had come up with an answer to what is known in the trade as the &amp;lsquo;travelling salesman&amp;rsquo; problem.&lt;/p&gt;
 
-&lt;p&gt;Fusce eget urna vitae turpis consectetur interdum. Integer mi quam, dapibus vitae vestibulum ut, blandit non tellus. Praesent non fringilla turpis. Pellentesque vitae ex varius, feugiat nisl sit amet, tempor leo. Sed fermentum velit ac suscipit aliquam. Sed sed mi arcu. Nulla ut ornare turpis. Etiam eget neque et dui fringilla maximus vitae eget est.&lt;/p&gt;
+&lt;p&gt;The fact that some of the world&amp;rsquo;s best brains have been trying to solve the problem gives some idea of its density to the layman. Reduced to its simplest, the difficulty is to find a formula for a computer to work out the best route for a salesman to take when he has to make calls in a number of different cities.&lt;/p&gt;
 
-&lt;p&gt;Quisque molestie consequat metus. Nulla sit amet iaculis lorem. Curabitur ac sagittis leo, sed consectetur massa. Etiam laoreet id nunc accumsan mollis. Aenean lobortis nisl quam. Nunc dictum dignissim nulla sed bibendum. Maecenas pretium ante vitae pretium vulputate.&lt;/p&gt;
+&lt;p&gt;This is only a sample problem. There are any number of analogous situations in the everyday life of the industrial world: calculating the most efficient way of staffing a factory with three shifts of workers is another.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis enim at turpis pharetra, sed sodales orci dignissim. In fermentum malesuada lacus, ut egestas risus cursus quis. Fusce venenatis malesuada neque, non scelerisque nisl fermentum sed. Nam eu metus sed metus consectetur dapibus. Nam vel condimentum dui. Nam accumsan ipsum ut elit sollicitudin, a porta lorem elementum. Maecenas tempor pulvinar suscipit. Cras quam orci, elementum non imperdiet et, bibendum ac nisl. Donec porttitor odio ut laoreet laoreet. Aliquam laoreet euismod dolor ut congue. Maecenas ornare fermentum sem, et consequat libero pharetra et. Nulla ac est ipsum. Donec ac nulla tellus. Mauris eleifend nunc a vulputate efficitur. Donec diam risus, bibendum non massa et, dictum tincidunt sapien.&lt;/p&gt;
+&lt;p&gt;On the face of it, this should present no difficulty at all and, up to a point, the computer can do the sums at its normal speed. But it only needs a small increase in the number of cities to be visited by the salesman for the machine to fall into the binary version of a nervous breakdown.&lt;/p&gt;
 
-&lt;p&gt;Donec dapibus, mauris tincidunt condimentum tempor, urna est auctor diam, ut convallis nunc dui nec justo. Duis sed libero leo. Nam sed nisi iaculis, rutrum metus sit amet, fringilla nunc. Proin sed nunc vitae velit laoreet fermentum. Etiam egestas massa id quam scelerisque congue. Mauris auctor posuere urna quis rhoncus. Ut sit amet maximus est. Etiam vehicula nisl id nulla eleifend, id ultricies magna imperdiet. Cras eu ornare augue. Praesent ac dignissim lacus, vitae fermentum tellus. Nulla facilisi. Vivamus euismod sem vestibulum fermentum euismod. Curabitur orci odio, malesuada in tincidunt et, ornare at ipsum. Vestibulum posuere ultrices mattis. Vivamus in varius mi, tincidunt egestas neque.&lt;/p&gt;
+&lt;p&gt;The trouble is that the machine can only be programmed to work on the problem through trial and error, laboriously going through all the possible combinations until one emerges which is better than all the others - known in the trade as the exponential time method.&lt;/p&gt;
 
-&lt;p&gt;Quisque egestas sagittis magna. Mauris non congue libero. Sed tristique orci quis eros gravida, eu tincidunt metus pharetra. Quisque non consectetur nisi. Proin vel accumsan velit. In id ante fringilla, semper orci nec, viverra ipsum. Sed non lorem eget lacus pharetra bibendum et nec sem. In hac habitasse platea dictumst. Morbi sed sem nec lorem cursus facilisis. Donec luctus ligula est, sed tempus orci commodo at.&lt;/p&gt;
+&lt;p&gt;The alternative being sought would use the polynomial time method, by which the machine can carry out a whole range of simultaneous calculations.&lt;/p&gt;
 
-&lt;p&gt;Fusce eget urna vitae turpis consectetur interdum. Integer mi quam, dapibus vitae vestibulum ut, blandit non tellus. Praesent non fringilla turpis. Pellentesque vitae ex varius, feugiat nisl sit amet, tempor leo. Sed fermentum velit ac suscipit aliquam. Sed sed mi arcu. Nulla ut ornare turpis. Etiam eget neque et dui fringilla maximus vitae eget est.&lt;/p&gt;
+&lt;p&gt;A route for a salesman visiting 60 cities would take about one-fifth of a second to work out with a polynomial formula. Using exponential time methods it needs literally billions of centuries. But no one so far has managed to come up with a mathematical theory to underpin a solution.&lt;/p&gt;
 
-&lt;p&gt;Quisque molestie consequat metus. Nulla sit amet iaculis lorem. Curabitur ac sagittis leo, sed consectetur massa. Etiam laoreet id nunc accumsan mollis. Aenean lobortis nisl quam. Nunc dictum dignissim nulla sed bibendum. Maecenas pretium ante vitae pretium vulputate.&lt;/p&gt;
+&lt;p&gt;Now Mr Khachian has burst on the scene and seems to have provided a significant bit of the answer. Since no one knows who he is and since there is no record of any previous publication by him, the speculation is that he carried out his work as part of his doctoral thesis.&lt;/p&gt;
+
+&lt;p&gt;The best brains in the business have tried out his formula and agree that it works, at least on a pocket calculator. It has yet to be given a full-blown test as part of a computer programme.&lt;/p&gt;
+
+&lt;p&gt;Mr Khachian&amp;rsquo;s solution is not easily explained, but involves the use of sets (that central element in the new maths) in a more imaginative way than hitherto which closes in on the best solution.&lt;/p&gt;
+
+&lt;p&gt;The practical advantage of this is to cut out consideration of obvious non-starters. The consensus of the mathematical fraternity is that the Russian&amp;rsquo;s obscurity is not likely to last if he continues to produce work of this calibre.&lt;/p&gt;
 </description>
     </item>
     
