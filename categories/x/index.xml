@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>X on hugo-purest</title>
+    <title>X on purax</title>
     <link>http://localhost:1313/categories/x/</link>
-    <description>Recent content in X on hugo-purest</description>
+    <description>Recent content in X on purax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Thu, 09 Apr 2015 14:22:21 +0300</lastBuildDate>
