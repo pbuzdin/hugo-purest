@@ -13,8 +13,21 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/post/first-hui/</loc>
+    <lastmod>2015-04-09T14:22:21+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/post/nitro/</loc>
     <lastmod>2013-06-21T11:27:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/contact/</loc>
   </url>
   
 </urlset>
