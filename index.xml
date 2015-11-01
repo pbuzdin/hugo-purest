@@ -2,23 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>purax</title>
-<<<<<<< HEAD
-    <link>http://purax.iboong.com/</link>
-=======
     <link>http://localhost:1313/</link>
->>>>>>> refs/remotes/origin/master
     <description>Recent content on purax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 14 Apr 2015 16:32:03 +0300</lastBuildDate>
-    <atom:link href="http://purax.iboong.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Russian way with the mathematical travelling salesman</title>
-      <link>http://purax.iboong.com/post/khachian/</link>
+      <link>http://localhost:1313/post/2015/khachian/</link>
       <pubDate>Tue, 14 Apr 2015 16:32:03 +0300</pubDate>
       
-      <guid>http://purax.iboong.com/post/khachian/</guid>
+      <guid>http://localhost:1313/post/2015/khachian/</guid>
       <description>&lt;p&gt;A young Soviet mathematician, apparently totally unknown to any of the world&amp;rsquo;s senior practitioners, has found an answer to one of the most baffling problems in computer calculation.&lt;/p&gt;
 
 &lt;p&gt;But his obscurity is such that his discovery went unnoticed for 10 months in the mathematical world, although work on the problem has been going on for years.&lt;/p&gt;
@@ -49,10 +45,10 @@
     
     <item>
       <title>Nitro: A quick and simple profiler for Go</title>
-      <link>http://purax.iboong.com/post/nitro/</link>
+      <link>http://localhost:1313/post/nitro/</link>
       <pubDate>Fri, 21 Jun 2013 11:27:27 -0400</pubDate>
       
-      <guid>http://purax.iboong.com/post/nitro/</guid>
+      <guid>http://localhost:1313/post/nitro/</guid>
       <description>
 
 &lt;h1 id=&#34;nitro:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;Nitro&lt;/h1&gt;
