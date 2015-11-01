@@ -5,17 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Nitro: A quick and simple profiler for Go - purax</title>
+=======
+    <title>Nitro: A quick and simple profiler for Go &middot; purax</title>
+>>>>>>> refs/remotes/origin/master
 
     <meta name="description" content="Nitro is a simple profiler for your Golang applications">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="dragos_plesca" />
+<<<<<<< HEAD
     <meta name="twitter:title" content="Nitro: A quick and simple profiler for Go - purax">
     <meta name="twitter:description" content="Nitro is a simple profiler for your Golang applications">
 
     <meta property="og:type" content="article">
     <meta property="og:title" content="Nitro: A quick and simple profiler for Go - purax">
+=======
+    <meta name="twitter:title" content="Nitro: A quick and simple profiler for Go &middot; purax">
+    <meta name="twitter:description" content="Nitro is a simple profiler for your Golang applications">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Nitro: A quick and simple profiler for Go &middot; purax">
+>>>>>>> refs/remotes/origin/master
     <meta property="og:description" content="Nitro is a simple profiler for your Golang applications">
 
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
@@ -23,42 +35,51 @@
     
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
     
+<<<<<<< HEAD
     <link rel="stylesheet" href="http://purax.iboong.com/css/nprogress.css">
     <link rel="stylesheet" href="http://purax.iboong.com/css/blog.css">
+=======
+    <link rel="stylesheet" href="/css/nprogress.css">
+    <link rel="stylesheet" href="/css/blog.css">
+>>>>>>> refs/remotes/origin/master
 
     
     <style>
     body     { background: rgba(152, 251, 152,.5); }
     #layout  { background: rgba(219, 112, 147,.5); }
     .content { background: rgba(175, 238, 238,.5); }
-    .footer  { background: rgba(238, 232, 170,.5); }
+    .footer  { background: rgb(238, 232, 170); }
 </style>
 </head>
 <body>
 
 
 <div class="custom-wrapper pure-g" id="menu">
-<div class="pure-u-1 pure-u-md-1-3">
+<div class="pure-u-1 pure-u-md-1-2">
     <div class="pure-menu">
+<<<<<<< HEAD
         <a href="/" class="pure-menu-heading custom-brand" onclick="clickactive(this)">purax</a>
+=======
+        <a href="/" class="pure-menu-heading custom-brand clickactive">purax</a>
+>>>>>>> refs/remotes/origin/master
         <a href="#" class="custom-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
     </div>
 </div>
-<div class="pure-u-1 pure-u-md-1-3">
+<div class="pure-u-1 pure-u-md-1-2">
     <div class="pure-menu pure-menu-horizontal custom-can-transform">
 
         <ul class="pure-menu-list">
         
         
-          <li class="pure-menu-item" onclick="clickactive(this)"><a href="/about/" class="pure-menu-link">about</a></li>
+          <li class="pure-menu-item"><a href="/about/" class="pure-menu-link clickactive">about</a></li>
         
-          <li class="pure-menu-item" onclick="clickactive(this)"><a href="/contact/" class="pure-menu-link">contact</a></li>
+          <li class="pure-menu-item"><a href="/contact/" class="pure-menu-link clickactive">contact</a></li>
         
         <li class="pure-menu-item"><a href="/error/" class="pure-menu-link">error</a></li>
         </ul>
     </div>
 </div>
-<div class="pure-u-1 pure-u-md-1-3 hidden">
+<div class="pure-u-1 pure-u-md-1-2 hidden">
     <div class="pure-menu pure-menu-horizontal custom-menu-3 custom-can-transform">
         <ul class="pure-menu-list">
             <li class="pure-menu-item"><a href="#" class="pure-menu-link">Yahoo</a></li>
@@ -115,32 +136,65 @@ of the library.</p>
     </div>
   </div>
 
-    <div class="footer">
+    <div id="my-awesomepage-progress-bar-wrapper">
+    <div id="my-awesomepage-progress-bar-element"></div>
+</div>
+
+<div class="footer">
     <div class="pure-menu pure-menu-horizontal pure-menu-open">
         <ul>
             <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
         </ul>
     </div>
 </div>
+<style>
+  #my-awesomepage-progress-bar-element {
+    transition: width 0.5s ease-in-out;
+    -webkit-transition: max-width .5s ease;    
+  }
+</style>
 
+<<<<<<< HEAD
 <script src="http://purax.iboong.com/js/pjax-standalone.min.js"></script>
 <script src="http://purax.iboong.com/js/nprogress.js"></script>
+=======
+<script src="/js/pjax-standalone.min.js"></script>
+<script src="/js/nprogress.js"></script>
+<script src="/js/scrollProgress.min.js"></script>
+<script src="/js/sweetalert.min.js"></script>
+<link href="/css/sweetalert.css" rel="stylesheet">
+>>>>>>> refs/remotes/origin/master
 <script>
 pjax.connect({
   'container': 'content',
-  'beforeSend': function(e){ NProgress.start(); },
+  'beforeSend': function(e){
+    NProgress.start();
+    },
   
-  'error': function(e){ alert('Ошибка! Ты хуй!'); },
+  'error': function(e){
+    swal("Error", "Broken link, sorry!", "error");
+    },
   'success': function(e) {
-    aObj = document.getElementById('menu').getElementsByTagName('a');
-    for(i=0;i<aObj.length;i++) {
-      if(document.location.href.indexOf(aObj[i].href)>=0) {
-        aObj[i].parentNode.className='pure-menu-item pure-menu-selected';
-      }
-    }
   },
-  'complete': function(e){ NProgress.done(); }
+  'complete': function(e){
+    NProgress.done();
+        function setActive() {
+  aObj = document.querySelectorAll(".clickactive");
+  for(i=0;i<aObj.length;i++) {
+    if(document.location.href.indexOf(aObj[i].href)>=0) {
+      aObj[i].parentNode.className='pure-menu-item pure-menu-selected clickactive';
+      }
+  }
+}
+setActive();
+    }
   });
+
+    scrollProgress.set({
+      prefix: 'my-awesome-page-progress-bar',
+      color: 'rgb(238, 232, 170)',
+      height: '4px'
+});
 
 NProgress.configure({
   showSpinner: false,
@@ -148,22 +202,54 @@ NProgress.configure({
   });
 
 function setActive() {
-  aObj = document.getElementById('menu').getElementsByTagName('a');
+  aObj = document.querySelectorAll(".clickactive");
   for(i=0;i<aObj.length;i++) {
     if(document.location.href.indexOf(aObj[i].href)>=0) {
-      aObj[i].parentNode.className='pure-menu-item pure-menu-selected';
+      aObj[i].parentNode.className='pure-menu-item pure-menu-selected clickactive';
       }
   }
 }
 window.onload = setActive;
 
-function clickactive(elem) {
- var li = document.getElementsByTagName('li')
- for (i = 0; i < li.length; i++) {
-   li[i].classList.remove('pure-menu-selected')
-   }
-   elem.classList.add('pure-menu-selected');
-   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var navlinks = document.querySelectorAll(".clickactive");
+Array.prototype.map.call(navlinks, function(item) {
+  item.addEventListener("click", function(e) {
+    var navlinks = document.querySelectorAll(".clickactive");
+    Array.prototype.map.call(navlinks, function(item) {
+      if (item.parentNode.className == "pure-menu-item pure-menu-selected clickactive") {
+        item.parentNode.className = "pure-menu-item clickactive";
+        }
+        });
+        e.currentTarget.parentNode.className = "pure-menu-item pure-menu-selected clickactive";
+        });
+        });
+
+
+
+
+
+
+
+
+
 
 (function (window, document) {
 var menu = document.getElementById('menu'),

@@ -2,10 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on purax</title>
+<<<<<<< HEAD
     <link>http://purax.iboong.com/tags/go/</link>
+=======
+    <link>http://localhost:1313/tags/go/</link>
+>>>>>>> refs/remotes/origin/master
     <description>Recent content in Go on purax</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru</language>
+    <language>en</language>
     <lastBuildDate>Fri, 21 Jun 2013 11:27:27 -0400</lastBuildDate>
     <atom:link href="http://purax.iboong.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
     

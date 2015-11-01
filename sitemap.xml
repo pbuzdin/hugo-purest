@@ -13,7 +13,11 @@
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>http://purax.iboong.com/post/nitro/</loc>
+=======
+    <loc>http://localhost:1313/post/nitro/</loc>
+>>>>>>> refs/remotes/origin/master
     <lastmod>2013-06-21T11:27:27-04:00</lastmod>
   </url>
   
