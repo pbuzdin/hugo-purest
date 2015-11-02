@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>X on purax</title>
-    <link>http://localhost:1313/tags/x/</link>
-    <description>Recent content in X on purax</description>
+    <title>Catx on purax</title>
+    <link>http://purax.iboong.com/category/catx/</link>
+    <description>Recent content in Catx on purax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 09 Apr 2015 14:22:21 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/x/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://purax.iboong.com/category/catx/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>first</title>
-      <link>http://localhost:1313/post/first-hui/</link>
+      <link>http://purax.iboong.com/post/first-hui/</link>
       <pubDate>Thu, 09 Apr 2015 14:22:21 +0300</pubDate>
       
-      <guid>http://localhost:1313/post/first-hui/</guid>
+      <guid>http://purax.iboong.com/post/first-hui/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis enim at turpis pharetra, sed sodales orci dignissim. In fermentum malesuada lacus, ut egestas risus cursus quis. Fusce venenatis malesuada neque, non scelerisque nisl fermentum sed. Nam eu metus sed metus consectetur dapibus. Nam vel condimentum dui. Nam accumsan ipsum ut elit sollicitudin, a porta lorem elementum. Maecenas tempor pulvinar suscipit. Cras quam orci, elementum non imperdiet et, bibendum ac nisl. Donec porttitor odio ut laoreet laoreet. Aliquam laoreet euismod dolor ut congue. Maecenas ornare fermentum sem, et consequat libero pharetra et. Nulla ac est ipsum. Donec ac nulla tellus. Mauris eleifend nunc a vulputate efficitur. Donec diam risus, bibendum non massa et, dictum tincidunt sapien.&lt;/p&gt;
 
 &lt;p&gt;Donec dapibus, mauris tincidunt condimentum tempor, urna est auctor diam, ut convallis nunc dui nec justo. Duis sed libero leo. Nam sed nisi iaculis, rutrum metus sit amet, fringilla nunc. Proin sed nunc vitae velit laoreet fermentum. Etiam egestas massa id quam scelerisque congue. Mauris auctor posuere urna quis rhoncus. Ut sit amet maximus est. Etiam vehicula nisl id nulla eleifend, id ultricies magna imperdiet. Cras eu ornare augue. Praesent ac dignissim lacus, vitae fermentum tellus. Nulla facilisi. Vivamus euismod sem vestibulum fermentum euismod. Curabitur orci odio, malesuada in tincidunt et, ornare at ipsum. Vestibulum posuere ultrices mattis. Vivamus in varius mi, tincidunt egestas neque.&lt;/p&gt;
